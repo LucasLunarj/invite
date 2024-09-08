@@ -1,0 +1,19 @@
+.logo{
+    height: 728px;
+    width: 400px;
+    background: url(../assets/Background.png) no-repeat;
+    overflow: hidden;
+}
+
+.logo-content{
+    padding: 32px;
+    h1{
+        font: var(--logo-leckerli);
+        color: var(--pink);
+    }
+    p{
+        font: var(--body-md);
+        color: var(--text-heading);
+        font-weight: 300;
+    }
+}

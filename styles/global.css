@@ -32,4 +32,17 @@
     --brand-dark:#1D6FB6;
     --brand-mid:#3487CF;
     --brand-light:#59B2FF;
+
+    --font-leckerli:"Leckerli One", system-ui;
+    --logo-leckerli: 400 40px var(--font-leckerli);
+
+    --font-baloo:  font-family: "Baloo 2", system-ui;
+    --heading-md: bold 28px/auto var(--font-baloo);
+    --heading-sm: bold 18px/auto var(--font-baloo);
+
+    --font-sans:"Open Sans", system-ui;
+    --body-md:auto 16px var(--font-sans);
+    --body-sm:400/700 14px/auto var(--font-sans);
+    --body-xs:400/700 14px/auto var(--font-sans);
+
 }
