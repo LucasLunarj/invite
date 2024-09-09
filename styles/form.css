@@ -1,0 +1,115 @@
+form{
+    width: 820px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: var(--shape-body);
+    padding: 80px 130px;
+    /* border: 20px solid var(--shape-background); */
+
+    h2{
+        font: var(--heading-md) ;
+        color: var(--text-heading);
+        margin-bottom: 42px;
+    }
+}
+
+.title-about{
+    display: flex;
+    align-items: center;
+gap: 12px;
+
+margin-bottom: 24px;
+font: var(--heading-sm);
+color: var(--text-heading);
+}
+
+
+.input-wrapper{
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    & label{
+        color: var(--text-body);
+        font: var(--body-sm);
+    }
+    
+    & input{
+        background-color: var(--input-base);
+        border: 1px solid var(--input-stroke);
+        padding: 13px 16px;
+        border-radius: 8px;
+        color: var(--text-heading);
+    }
+    & input:focus{
+        outline-color: blue;
+    }
+
+
+}
+
+.input-content-wrapper{
+    display: flex;
+    width: 100%;
+    gap:16px ;
+    
+    
+    input{ 
+      width: 272px;
+    }
+    
+}
+
+.button-area{
+    width: 272px;
+    display: flex;
+    gap: 4px;
+    background-color:var(--input-base) ;
+    border: 1px solid var(--input-stroke);
+    border-radius: 8px;
+    font: var(--body-sm);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 18px;
+    color: var( --text-body);
+}
+
+.selected{
+    background-color:var(--shape-button) ;
+    border-radius: 4px;
+    font-weight: 700;
+    
+}
+
+.description-area{
+    
+    textarea{
+        background-color: var(--input-base);
+        border: 1px solid var(--input-stroke);
+        padding: 16px;
+        height: 136px;
+        width: 100%;
+        resize: none;
+
+        color: var(--text-heading);
+
+        border-radius: 8px;
+        margin-bottom: 40px;
+    }
+}
+
+.check-color{
+    width: 40px;
+    height: 40px;
+    background: var();
+    border-radius: 999px;
+    padding: 6px;
+}

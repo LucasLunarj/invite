@@ -1,9 +1,12 @@
 .logo{
-    height: 728px;
+    height: 730px;
     width: 400px;
     background: url(../assets/Background.png) no-repeat;
-    overflow: hidden;
+    
 }
+
+
+
 
 .logo-content{
     padding: 32px;
