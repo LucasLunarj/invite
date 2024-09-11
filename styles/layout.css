@@ -2,12 +2,6 @@
     display: flex;
    
     justify-content: center;
-    border: 1px solid red;
     gap: 20px;
 }
 
-main{
-    height: 100vh;
-    overflow: auto;
-    
-}

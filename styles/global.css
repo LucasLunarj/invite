@@ -41,7 +41,7 @@
     --heading-sm: bold 18px var(--font-baloo);
 
     --font-sans:"Open Sans", system-ui;
-    --body-md:auto 16px var(--font-sans);
+    --body-md:400 16px var(--font-sans);
     --body-sm:400 14px var(--font-sans);
     --body-xs:400 14px/auto var(--font-sans);
 
